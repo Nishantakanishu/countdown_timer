@@ -1,0 +1,9 @@
+{
+  "name": "countdown-timer-root",
+  "private": true,
+  "scripts": {
+    "postinstall": "npm install --prefix countdown_timer",
+    "build": "npm run build --prefix countdown_timer",
+    "dev": "npm run dev --prefix countdown_timer"
+  }
+}
